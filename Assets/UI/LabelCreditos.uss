@@ -1,0 +1,17 @@
+.titulo {
+    width: 100%;
+    -unity-text-align: upper-center;
+    color: rgb(211, 183, 50);
+    font-size: 70px;
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.titulo {
+    width: 100%;
+    -unity-text-align: upper-center;
+    color: rgb(211, 183, 50);
+    font-size: 70px;
+    background-color: rgb(82, 82, 82);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}

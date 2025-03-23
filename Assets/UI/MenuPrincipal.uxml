@@ -7,6 +7,9 @@
             <engine:Button text="Ayuda" name="boton-ayuda" class="boton" />
             <engine:Button text="Créditos" name="boton-creditos" class="boton" />
         </engine:GroupBox>
-        <engine:Label text="Daniel Alvarez Sil (A01800182)" name="pie" class="pie" style="-unity-text-align: upper-left;" />
+        <engine:GroupBox class="grupo-pie" style="flex-direction: row;">
+            <engine:Button text="X" name="boton-salir" class="boton-salir" style="flex-grow: 0; font-size: 30px; background-color: rgba(129, 129, 129, 0); color: rgb(255, 255, 255); -unity-text-align: middle-left;" />
+            <engine:Label text="Daniel Alvarez Sil (A01800182)" name="pie" class="pie" style="-unity-text-align: upper-right;" />
+        </engine:GroupBox>
     </engine:VisualElement>
 </engine:UXML>

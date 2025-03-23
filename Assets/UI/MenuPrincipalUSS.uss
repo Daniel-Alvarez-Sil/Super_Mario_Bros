@@ -40,11 +40,17 @@
 }
 
 .pie {
-    align-self: flex-end;
+    align-self: center;
     color: rgb(255, 255, 255);
     font-size: 25px;
     -unity-font-style: italic;
     margin-right: 60px;
+    -unity-text-align: upper-right;
+    align-content: flex-end;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    right: 0;
 }
 
 .boton {
@@ -83,4 +89,16 @@
 .menu {
     -unity-text-align: upper-center;
     align-items: center;
+}
+
+.grupo-pie {
+    flex-direction: row;
+    width: 1250px;
+    align-self: center;
+    align-items: flex-start;
+    height: 50px;
+}
+
+.boton-salir {
+    font-size: 50px;
 }
