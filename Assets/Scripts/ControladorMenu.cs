@@ -38,6 +38,16 @@ public class ControladorMenu : MonoBehaviour
         SceneManager.LoadScene(nombreEscena);
     }
 
+    private void MostrarAyuda()
+    {
+        vMenu.style.display = DisplayStyle.Flex;
+        vMenu.Q<Label>("ayuda").text = "¡Hola! Bienvenido al menú de ayuda del juego de Mario Bros.\n\n" +
+            "Este es un juego creado en Unity para practicar el uso de funciones básicas, interfaces gráficas y elementos interactivos.\n\n" +
+            "El objetivo principal es experimentar con el motor de Unity y aprender a crear juegos sencillos, utilizando conceptos fundamentales de diseño y programación.\n\n" +
+            "¡Explora los niveles, recolecta monedas y enfréntate a los clásicos desafíos de Mario!\n\n" +
+            "¡Diviértete y disfruta de la experiencia!";
+    }
+
 
     // private void CerrarAyuda()
     // {

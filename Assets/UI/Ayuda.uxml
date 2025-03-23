@@ -1,0 +1,13 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Ayuda.uss?fileID=7433441132597879392&amp;guid=6736072966f0a5f49992d7f0a779c9cd&amp;type=3#Ayuda" />
+    <engine:VisualElement style="flex-grow: 1;">
+        <engine:Label text="Tarea Unity" class="titulo" />
+        <engine:Label text="Este proyecto es una recreación inspirada en el clásico Mario Bros, desarrollada en Unity como parte de un ejercicio de aprendizaje sobre diseño de videojuegos. El objetivo principal es brindar una experiencia básica pero funcional, donde se integren elementos esenciales como el movimiento del personaje, cambio de escenas, interacción con el entorno, y navegación por menús.&#10;&#10;A través de esta versión, el jugador puede controlar a Mario en un entorno de plataformas 2D, avanzando por distintos niveles mientras esquiva obstáculos y descubre elementos del escenario. Se han incluido sonidos, animaciones, y un sistema de navegación amigable que permite moverse por la interfaz del juego de manera sencilla e intuitiva." class="ayuda">
+            <engine:Button text="X" name="boton-regresar" class="boton-regresar" style="position: absolute; top: 0; right: 0; background-color: rgba(255, 255, 255, 0.51); -unity-background-image-tint-color: rgb(20, 20, 20); font-size: 30px; -unity-font-style: bold; color: rgb(218, 139, 16); -unity-text-outline-color: rgba(116, 2, 2, 0); -unity-text-outline-width: 0; border-top-left-radius: 30px; border-top-right-radius: 30px; border-bottom-right-radius: 30px; border-bottom-left-radius: 30px;" />
+        </engine:Label>
+        <engine:GroupBox class="grupo-pie">
+            <engine:Button text="X" name="boton-salir" class="boton-salir" />
+            <engine:Label text="Daniel Alvarez Sil (A01800182)" class="pie" />
+        </engine:GroupBox>
+    </engine:VisualElement>
+</engine:UXML>

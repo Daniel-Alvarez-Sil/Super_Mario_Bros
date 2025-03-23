@@ -24,6 +24,7 @@ public class ControladorReturn : MonoBehaviour
         botonRegresar.RegisterCallback<ClickEvent>(evt => CargarEscena("SampleScene"));
     }
 
+
     private void CargarEscena(string nombreEscena)
     {
         SceneManager.LoadScene(nombreEscena);
