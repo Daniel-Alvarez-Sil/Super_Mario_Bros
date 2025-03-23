@@ -1,16 +1,17 @@
+/*
+    Daniel Alvarez Sil
+    - Propósito:    Este script en Unity actualiza la animación de un personaje 2D según su velocidad y si está en el suelo. 
+                    También voltea el sprite horizontalmente dependiendo de la dirección del movimiento.
+*/
+
 using UnityEngine;
 
-/**
-Modificar las variables del Animator que realiza las transiciones de las animaciones  
-Autor: Roberto Mtz. Román
-*/
 public class CambiaAnimacion : MonoBehaviour
 {
     private Rigidbody2D rb;
     private SpriteRenderer spRenderer;
     private Animator animator;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -18,7 +19,6 @@ public class CambiaAnimacion : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         float velocidad = rb.linearVelocity.x;

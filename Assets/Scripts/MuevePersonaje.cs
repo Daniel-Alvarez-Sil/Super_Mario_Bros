@@ -1,27 +1,30 @@
+/*
+    Daniel Alvarez Sil
+    - Propósito:    Este script mueve un personaje 2D usando Rigidbody2D. Permite moverse horizontalmente y 
+                    saltar solo si se presiona una tecla hacia arriba; si no, mantiene la velocidad vertical actual.
+*/
+
+
 using UnityEngine;
 
 public class MuevePersonaje : MonoBehaviour
 {
-    // transform, gameObject, 
 
     // Velocidades
     public float velocidadX;
 
-    [SerializeField]   // Permite al editor de Unity acceder a la var
+    [SerializeField]  
     private float velocidadY;
 
-    // Necesito que el personaje se mueva
     private Rigidbody2D rb;
 
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        // Inicializar rb
+
         rb = GetComponent<Rigidbody2D>();
     }
 
-    // FixUpdate is called 60 fps
     void FixedUpdate()
     {
         float movHorizontal = Input.GetAxis("Horizontal");

@@ -1,3 +1,10 @@
+/*
+    Daniel Alvarez Sil
+    - Propósito:    Este script en Unity asigna una función al botón "boton-regresar" de una interfaz UI Toolkit, 
+                    y al hacer clic carga la escena llamada "SampleScene", el cual es el MENU PRINCIPAL. 
+*/
+
+
 using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
